@@ -17,25 +17,73 @@
     <link rel="stylesheet" href="css/output.css" />
     <title>Frontendmentor |EasyBank Landing Page Solution</title>
   </head>
-  <body class="font-publicSans leading-3">
+  <body class="font-publicSans">
     <nav class="relative container mx-auto p-6">
       <!-- Nav container -->
-      <div class="flex items-center justify-between">
+      <div class="flex items-center justify-between bg-white">
         <div>
           <img src="img/logo.svg" alt="easybank logo" class="h-6" />
         </div>
-        <ul class=" space-x-6 text-grayishBlue items-center pt-2 hidden md:flex">
-          <li class="pb-3 hover:border-b-brightCyan  hover:border-b-2"><a href="#" class="hover:text-darkBlue hover:font-bold">Home</a></li>
-          <li class="pb-3 hover:border-b-brightCyan  hover:border-b-2" ><a href="#" class="hover:text-darkBlue hover:font-bold">About</a></li>
-          <li class="pb-3 hover:border-b-brightCyan  hover:border-b-2"><a href="#" class="hover:text-darkBlue hover:font-bold">Contact</a></li>
-          <li class="pb-3 hover:border-b-brightCyan  hover:border-b-2"><a href="#" class="hover:text-darkBlue hover:font-bold">Blog</a></li>
-          <li class="pb-3 hover:border-b-brightCyan  hover:border-b-2"><a href="#" class="hover:text-darkBlue hover:font-bold">Careers</a></li>
+        <ul class="space-x-6 text-grayishBlue items-center pt-2 hidden md:flex">
+          <li class="pb-3 hover:border-b-brightCyan hover:border-b-2">
+            <a href="#" class="hover:text-darkBlue hover:font-bold">Home</a>
+          </li>
+          <li class="pb-3 hover:border-b-brightCyan hover:border-b-2">
+            <a href="#" class="hover:text-darkBlue hover:font-bold">About</a>
+          </li>
+          <li class="pb-3 hover:border-b-brightCyan hover:border-b-2">
+            <a href="#" class="hover:text-darkBlue hover:font-bold">Contact</a>
+          </li>
+          <li class="pb-3 hover:border-b-brightCyan hover:border-b-2">
+            <a href="#" class="hover:text-darkBlue hover:font-bold">Blog</a>
+          </li>
+          <li class="pb-3 hover:border-b-brightCyan hover:border-b-2">
+            <a href="#" class="hover:text-darkBlue hover:font-bold">Careers</a>
+          </li>
         </ul>
-        <button class="bg-gradient-to-r from-brightCyan to-limeGreen text-white py-3 px-4 rounded-full hidden md:block">Request Invite</button>
+        <button
+          class="bg-gradient-to-r from-brightCyan to-limeGreen text-white py-3 px-4 rounded-full baseline hidden md:block hover:opacity-75"
+        >
+          Request Invite
+        </button>
         <div>
-          <img src="img/icon-hamburger.svg" alt="menubar" class="md:hidden h-4">
+          <img
+            src="img/icon-hamburger.svg"
+            alt="menubar"
+            class="md:hidden h-4"
+          />
         </div>
-      </nav>
       </div>
+    </nav>
+    <!-- Hero Container -->
+    <section id="hero" class="bg-veryLightGray">
+      <!-- flex container -->
+      <div class="flex flex-col md:flex-row-reverse md:pl-36 -z-40">
+        <!-- right item -->
+        <div class="hero__img md:w-1/2">
+          <img src="img/image-mockups.png" alt="" />
+        </div>
+        <!-- left item -->
+        <div
+          class="flex flex-col items-center space-y-6 mt-10 leading-7 md:items-start md:mt-32 md:pr-40 md:w-1/2"
+        >
+          <h1
+            class="max-w-md font-semibold text-5xl text-center text-darkBlue md:text-5xl md:text-left"
+          >
+            Next generation<br />digital banking
+          </h1>
+          <p class="text-grayishBlue px-14 text-center md:text-left md:px-0">
+            Take your financial life online. Your Easybank account will be a
+            one-stop-shop for spending, saving, budgeting, investing, and much
+            more.
+          </p>
+          <button
+            class="bg-gradient-to-r from-brightCyan to-limeGreen text-white py-3 px-5 rounded-full baseline hover:opacity-75"
+          >
+            Request Invite
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
