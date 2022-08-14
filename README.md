@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![landing page screenshot](./design/Screenshot.png)
+![landing page screenshot](../design/Screenshot.png)
 
 ### Links
 
