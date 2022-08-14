@@ -12,6 +12,6 @@ cp -R ./index.html ./dist
 echo "Done, Moving index.html"
 cp -R ./css ./dist/css
 echo "Done, Moving CSS"
-# cp -R ./js ./dist/js
-# echo "Done, Moving JS"
+cp -R ./js ./dist/js
+echo "Done, Moving JS"
 cp -R ./img ./dist/img
