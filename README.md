@@ -27,59 +27,31 @@ Users should be able to:
 
 ### Screenshot
 
-![landing page screenshot](./screenshot.jpg)
+![landing page screenshot](./design/Screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-landing-page-using-tailwind-css-lFM4WPFZCq)
+- Live Site URL: [Live site URL](https://easybanking-landing-frontendmentor.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- Tailwin CSS
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
 ### Continued development
 
+- Learn more about css framework
+
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 1](https://www.youtube.com/watch?v=dFgzHOX84xQ) - This helped me using the right syntax.
 
 ## Author
 
 - Website - [Oluwatosin Abigail Ogundeji](https://medium.com/@oluwatosinhephzibah)
 - Frontend Mentor - [@Heph-zibah](https://www.frontendmentor.io/profile/Heph-zibah)
 - Twitter - [@undaunted_pen](https://www.twitter.com/undaunted_pen)
-
-## Acknowledgments
